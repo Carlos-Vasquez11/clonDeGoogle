@@ -1,0 +1,194 @@
+html{
+    font-size: 62.5%;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 1.6rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+header{
+    width: 100vw;
+    height: 5vh;
+}
+
+header{
+    display: flex;
+    justify-content: flex-end;
+}
+
+header nav{
+    display: flex;
+    justify-content: flex-end;
+}
+
+header nav .nav-rigth-section{
+    height: auto;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+nav .nav-rigth-section a{
+    margin-right: 1vw;
+    color: black;
+}
+
+nav .nav-rigth-section .menu-icon{
+    background-image: url('https://static.thenounproject.com/png/756729-200.png');
+    background-repeat: no-repeat; /*Sirve para que no se repita la imagen si se escala*/
+    background-position: center;
+    background-size: contain;
+    width: 25px;
+    height: 100%;
+}
+
+nav .nav-rigth-section img{
+    border-radius: 50px;
+    margin-left: 1vw;
+}
+
+main{
+    width: 100vw;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main main-logo img{
+    width: 272px;
+    height: 92px;
+}
+
+main .main-input .main-input-container{
+    width: 525px;
+    border-radius: 100px;
+    border: 1px solid #dfe1df;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+main .main-input:hover{
+    box-shadow: 0 1px 6px 0 #20212447;
+    border-radius: 100px;
+}
+
+main .main-input .search-icon{
+    background-image: url('https://img.icons8.com/android/24/000000/search.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+}
+
+main .main-input .main-input-container input{
+    width: 410px;
+    height: 40px;
+    border: none;
+    outline: none;
+}
+
+main .main-input .microphone-icon{
+    background-image: url('https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+main .main-buttons{
+    width: 530px;
+    display: flex;
+    justify-content: center;
+    padding-top: 3vh;
+}
+
+main .main-buttons div{
+    display: inline-block;
+}
+
+main .main-buttons button{
+    width: 150px;
+    height: 36px;
+    border-radius: 5px;
+    margin-right: 12.5px;
+    margin-left: 12.5px;
+    border: 1px solid #dfe1df;
+    background-color: #f2f2f2;
+    color: #5f6368
+}
+
+main .main-buttons button:hover{
+    border: 1px solid #c6c6c6;
+    border-radius: 5px;
+    box-shadow: 0 1px 1px grey;
+}   
+
+main .main-change-idiom{
+    padding: 20px;
+}
+
+footer{
+    height: 10vh;
+    width: 100vw;
+    background-color: #f2f2f2;
+    position: absolute;
+    align-items: center;
+    font-size: 1.3rem;
+    border-top: 1px solid #e4e4e4;
+}
+
+footer div{
+    height: 50%;
+}
+
+footer .footer-company-info{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-top: 1px solid #d3d3d3;
+}
+
+footer ul{
+    margin: 0px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding-left: 0px;
+}
+
+footer ul li a{
+    margin: 10px;
+    color: #5f6338;
+}
+
+footer .footer-country{
+    display: flex;
+    width: 50%;
+    height: 50%;
+    align-items: center;
+    padding-left: 10px;
+    color: #5f6338;
+}
+
+footer .footer-company-info-left{
+    justify-content: left;
+}
+
+footer .footer-company-info-right{
+    justify-content: right;
+}
